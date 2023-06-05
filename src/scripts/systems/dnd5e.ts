@@ -837,27 +837,6 @@ export default {
 				}
 				const originIsSelf = origin?.parent?.uuid === this.uuid;
 				const isOriginEffect = originEffectIds.has(e._id);
-				if (isOriginEffect) {
-					return keepOriginAE;
-				}
-				if (!isOriginEffect && !originIsSelf) {
-					return keepOtherOriginAE;
-				}
-				if (origin.type === "spell") {
-					return keepSpellAE;
-				}
-				if (origin.type === "feat") {
-					return keepFeatAE;
-				}
-				if (origin.type === "background") {
-					return keepBackgroundAE;
-				}
-				if (["subclass", "feat"].includes(origin.type)) {
-					return keepClassAE;
-				}
-				if (["equipment", "weapon", "tool", "loot", "backpack"].includes(origin.type)) {
-					return keepEquipmentAE;
-				}
 				return true;
 			});
 		}
