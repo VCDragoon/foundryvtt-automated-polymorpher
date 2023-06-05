@@ -1,12 +1,12 @@
 {
-	"id": "automated-polymorpher",
-	"title": "[BETA] Automated Polymorpher Manager",
-	"description": "[BETA] A user interface to manage polymorpher with summoning animations and automated summoning for spells",
+	"id": "b-automated-polymorpher",
+	"title": "Brando's Automated Polymorpher Manager",
+	"description": "Brando's user interface to manage polymorpher with summoning animations and automated summoning for spells",
 	"version": "1.1.14",
 	"authors": [
 		{
-			"name": "p4535992",
-			"url": "https://github.com/p4535992",
+			"name": "Brando",
+			"url": "https://github.com/VCDragoon",
 			"discord": "",
 			"twitter": "",
 			"patreon": "p4535992",
